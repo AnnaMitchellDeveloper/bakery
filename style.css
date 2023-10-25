@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  background-color: #fbeee0;
+  font-family: "Montserrat", sans-serif;
+}
+h1, h2 {
+  text-align: center;
+}
+img {
+  margin: 10px;
+}
+li {
+	padding: 5px;
+	color: #7c7575;
+}
+del,ins {
+	color: #7c7575;
+	font-size: 25px;
+}
+ins {
+	display: inline-block;
+	transform: rotate(-7deg);
+	text-decoration: none;
+	
+}
+.heading {
+  color: #d55b3d;
+  font-size: 60px;
+}
+.section-images {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.section-images-second {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: #d55b3d;
+  font-size: 30px;
+  margin: 20px;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.wrapper h2, .wrapper img, .cake-price {
+  text-align: center;
+}
+.cake {
+	background-color: #f59999;
+	margin: 20px;
+	padding: 30px;
+	width: 350px;
+	height: 600px;
+}
+.cake-name {
+	color:#f1552e;
+	font-size: 30px;
+}
+.description {
+	background-color: #fbeee0;
+	border-radius: 10px;
+}
+.cake-price {
+	margin: 15px;
+}
+.stuff {
+	display: flex;
+	justify-content: center;
+}
+#myVideo {
+  width: 100%;
+}
